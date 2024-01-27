@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+:root {
+  --Primary: #043927;
+  --Secondary: #35b711;
+  --Clicked: rgba(53, 183, 17, 0.2);
+  --Alert: #ff4545;
+  --Black30: #969696;
+  --Black100: black;
+  --White100: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-title {
+  color: #000;
+  font-family: "SUIT Variable";
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-subtitle-black {
+  color: #000;
+  font-family: "SUIT Variable";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-subtitle-point {
+  color: var(--Secondary, #35b711);
+  font-family: "SUIT Variable";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-desc {
+  color: var(--Black30, var(--Default, #969696));
+  font-family: "SUIT Variable";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 0;
 }
