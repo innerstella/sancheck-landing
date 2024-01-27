@@ -10,7 +10,7 @@
 
 .text-title {
   color: #000;
-  font-family: "SUIT Variable";
+  font-family: "SUIT Variable", "sans-serif";
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 800;
@@ -20,7 +20,7 @@
 
 .text-subtitle-black {
   color: #000;
-  font-family: "SUIT Variable";
+  font-family: "SUIT Variable", "sans-serif";
   font-size: 2rem;
   font-style: normal;
   font-weight: 800;
@@ -30,7 +30,7 @@
 
 .text-subtitle-point {
   color: var(--Secondary, #35b711);
-  font-family: "SUIT Variable";
+  font-family: "SUIT Variable", "sans-serif";
   font-size: 2rem;
   font-style: normal;
   font-weight: 800;
@@ -40,10 +40,19 @@
 
 .text-desc {
   color: var(--Black30, var(--Default, #969696));
-  font-family: "SUIT Variable";
-  font-size: 1rem;
+  font-family: "SUIT Variable", "sans-serif";
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 140%;
+  line-height: 160%;
   margin: 0;
+}
+
+.text-detail {
+  color: rgba(0, 0, 0, 0.34);
+  font-family: "SUIT Variable", "sans-serif";
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }

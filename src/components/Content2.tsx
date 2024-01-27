@@ -8,9 +8,9 @@ const Content2 = () => {
       <Container>
         <TextContainer>
           <p className="text-subtitle-black">
-            <span className="text-subtitle-point">귀찮은 짐도 챙겨주는</span>
+            짐 챙기기 귀찮을 때
             <br />
-            똑똑한 산행 도우미
+            <span className="text-subtitle-point">백패킹 체크리스트</span>
           </p>
           <p className="text-desc">
             뭘 챙겨야 할 지 애매할 때,

@@ -12,17 +12,15 @@ const Content3 = () => {
             <br /> 리워드 받기
           </p>
           <p className="text-desc">
-            뭘 챙겨야 할 지 애매할 때,
+            챌린지 참여하고 리워드 혜택 받기
             <br />
-            백패킹 체크리스트를 통해 필요한 물품 빠짐 없이 챙기기
-            <br />
-            커머스와 연동을 통해 부족한 물품은 바로 주문!
+            마이페이지에서 나의 등산/트레킹 기록 아카이빙
           </p>
         </TextContainer>
         <ImageContainer>
-          <img className="img" src="/assets/level1.png" alt="level1" />
-          <img className="img" src="/assets/level1.png" alt="level1" />
-          <img className="img" src="/assets/level1.png" alt="level1" />
+          <img className="img" src="/assets/level1.svg" alt="level1" />
+          <img className="img" src="/assets/level2.svg" alt="level2" />
+          <img className="img" src="/assets/level3.svg" alt="level3" />
         </ImageContainer>
       </Container>
     </section>

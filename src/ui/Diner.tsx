@@ -24,9 +24,9 @@ const dinerData = [
 const Diner = () => {
   return (
     <Container>
-      {dinerData.map((elem) => {
+      {dinerData.map((elem, idx) => {
         return (
-          <MainWrapper>
+          <MainWrapper key={idx}>
             <div className="title-box">
               <span className="name">
                 {elem.dinerName} : {elem.dinerMenu}

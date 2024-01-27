@@ -12,11 +12,9 @@ const Content5 = () => {
             <span className="text-subtitle-point">등산/트레킹 클래스</span>
           </p>
           <p className="text-desc">
-            뭘 챙겨야 할 지 애매할 때,
+            혼자 오르기 애매한 산,
             <br />
-            백패킹 체크리스트를 통해 필요한 물품 빠짐 없이 챙기기
-            <br />
-            커머스와 연동을 통해 부족한 물품은 바로 주문!
+            프로 등산러와 함께하는 안전 보장 재미 보장 산행
           </p>
         </TextContainer>
       </Container>

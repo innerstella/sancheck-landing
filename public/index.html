@@ -24,8 +24,34 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <!-- 오픈 그래프 -->
+    <meta property="og:title" content="산-책, 나만의 등산/트레킹 파트너" />
+    <meta property="og:url" content="https://pre-sancheck.web.app/" />
+    <meta
+      property="og:image"
+      content="https://github.com/innerstella/kGround/blob/main/public/assets/opengraph.png?raw=true"
+    />
+    <meta
+      property="og:description"
+      content="요즘 사람들이 등산/트레킹 즐기는 법을 알려줍니다"
+    />
+
+    <title>산-책</title>
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-0SCHR25N1Y"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-S9CKCJP029");
+  </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>

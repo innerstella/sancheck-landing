@@ -29,7 +29,7 @@ const KeywordButton = ({ elem, animation }: Props) => {
           ease: [0, 0.71, 0.2, 1.01],
         }}
       >
-        <Button isClicked={elem.id}>
+        <Button isclicked={elem.id}>
           <p className="text">{elem.name}</p>
         </Button>
       </motion.div>
@@ -45,7 +45,7 @@ const KeywordButton = ({ elem, animation }: Props) => {
           ease: [0, 0.71, 0.2, 1.01],
         }}
       >
-        <Button isClicked={elem.id}>
+        <Button isclicked={elem.id}>
           <p className="text">{elem.name}</p>
         </Button>
       </motion.div>
@@ -55,11 +55,11 @@ const KeywordButton = ({ elem, animation }: Props) => {
 
 export default KeywordButton;
 
-const Button = styled.div<{ isClicked: number }>`
+const Button = styled.div<{ isclicked: number }>`
   border-radius: 10px;
   border: 2px solid var(--Default, #969696);
   background: ${(props) => {
-    if (+props.isClicked % 2 === 0) {
+    if (+props.isclicked % 2 === 0) {
       return "var(--Clicked)";
     } else if (props.color === "gray100") {
       return "#fff";

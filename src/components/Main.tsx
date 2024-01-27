@@ -6,14 +6,17 @@ const Main = () => {
       <Container>
         <img className="img" src="/assets/mockup.webp" alt="산책 앱 화면" />
         <TextContainer>
-          <p className="text-title">
+          <p className="text-subtitle-black">
             나만의
             <br />
             등산/트레킹 파트너
           </p>
           <p className="text-desc">
-            공간 데이터를 바탕으로 어쩌고 저쩌고 공간 데이터를 바탕으로 어쩌고
-            저쩌고 공간 데이터를 바탕으로 어쩌고 저쩌고
+            입맛에 맞는 등산/트레킹 장소를 찾는 사람들을 위한
+            <br />
+            적당히 걷고 맛있는 것도 먹는 코스 구상 중인 데이트족을 위한
+            <br />
+            혼자 산에 가기 망설여지는 등린이를 위한
           </p>
         </TextContainer>
       </Container>
@@ -33,7 +36,7 @@ const Container = styled.div`
   gap: 2.5rem;
 
   background-color: var(--Clicked);
-  height: 80vh;
+  height: 650px;
   padding: 0 25px;
   .img {
     width: 16rem;
