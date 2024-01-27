@@ -35,7 +35,6 @@ const Submit = () => {
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>출시 알림 받기</ModalHeader>
-          <ModalCloseButton />
           <ModalBody>
             <ModalMessage />
           </ModalBody>
