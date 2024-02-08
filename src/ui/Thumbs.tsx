@@ -1,5 +1,5 @@
-import { collection, doc, getDocs, query, setDoc } from "firebase/firestore";
-import { useState } from "react";
+import { collection, doc, getDocs, setDoc } from "firebase/firestore";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { dbService } from "../firebase";
 
@@ -15,6 +15,19 @@ const Thumbs = ({
 }) => {
   const [up, setUp] = useState(false);
   const [down, setDown] = useState(false);
+
+  useEffect(() => {
+    const data = localStorage.getItem(funcName);
+    if (data) {
+      if (data === "up") {
+        setUp(true);
+      }
+
+      if (data === "down") {
+        setDown(true);
+      }
+    }
+  }, []);
 
   const handleThumbs = (type: "up" | "down") => {
     if (type === "up") {
@@ -52,15 +65,17 @@ const Thumbs = ({
             }
           }
           if (prevValue !== undefined) {
-            updateDB({ funcName, value: prevValue });
+            updateDB({ funcName, type, value: prevValue });
           }
         }
       });
     });
 
     // update
-    const updateDB = ({ funcName, value }: any) => {
+    const updateDB = ({ funcName, type, value }: any) => {
       setDoc(doc(dbService, "funcData", funcName), value);
+
+      localStorage.setItem(funcName, type);
     };
   };
 
