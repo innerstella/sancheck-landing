@@ -22,7 +22,7 @@ const Content1 = () => {
               나의 니즈에 딱 맞는
             </span>
             <br />
-            등산•트레킹 장소 추천
+            등산<span className="text-subtitle-black">•</span>트레킹 장소 추천
           </p>
           <p className="text-desc">
             나만의 키워드로 갈만한 곳 추천받기

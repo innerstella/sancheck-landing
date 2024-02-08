@@ -9,7 +9,7 @@ const Main = () => {
           <p className="text-subtitle-black text-wanju">
             나만의
             <br />
-            등산•트레킹 파트너
+            등산<span className="text-subtitle-black">•</span>트레킹 파트너
           </p>
           <p className="text-desc">
             <span className="text-primary">나만의 니즈</span>에 맞는 등산•트레킹

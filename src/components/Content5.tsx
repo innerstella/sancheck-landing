@@ -11,7 +11,7 @@ const Content5 = () => {
             등산 PT는 처음이지?
             <br />
             <span className="text-subtitle-point text-wanju">
-              등산•트레킹 클래스
+              등산<span className="text-subtitle-point">•</span>트레킹 클래스
             </span>
           </p>
           <p className="text-desc">

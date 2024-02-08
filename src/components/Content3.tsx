@@ -8,7 +8,7 @@ const Content3 = () => {
       <Container>
         <TextContainer>
           <p className="text-subtitle-black text-wanju">
-            등산•트레킹 자극 뿜뿜
+            등산<span className="text-subtitle-black">•</span>트레킹 자극 뿜뿜
             <br />
             <span className="text-subtitle-point text-wanju">챌린지 </span>
             참여
@@ -18,7 +18,7 @@ const Content3 = () => {
             챌린지 참여하고 리워드 혜택 받기
             <br />
             <br />
-            마이페이지에서 나의 등산/트레킹 기록 아카이빙
+            마이페이지에서 나의 등산•트레킹 기록 아카이빙
           </p>
         </TextContainer>
         <ImageContainer>
