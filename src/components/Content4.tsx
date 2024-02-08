@@ -7,10 +7,10 @@ const Content4 = () => {
     <section>
       <Container>
         <TextContainer>
-          <p className="text-subtitle-black">
+          <p className="text-subtitle-black text-wanju">
             끝나고 뭐 먹지?
             <br />
-            <span className="text-subtitle-point">근처 맛집</span>
+            <span className="text-subtitle-point text-wanju">근처 맛집</span>
             까지 한 번에
           </p>
           <p className="text-desc">

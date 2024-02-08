@@ -56,3 +56,11 @@
   font-weight: 500;
   line-height: normal;
 }
+
+.text-wanju {
+  font-family: "Wanjudaedunsanche";
+}
+
+.text-primary {
+  color: var(--Primary);
+}

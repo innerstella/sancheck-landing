@@ -7,10 +7,12 @@ const Content5 = () => {
     <section>
       <Container>
         <TextContainer>
-          <p className="text-subtitle-black">
+          <p className="text-subtitle-black text-wanju">
             등산 PT는 처음이지?
             <br />
-            <span className="text-subtitle-point">등산•트레킹 클래스</span>
+            <span className="text-subtitle-point text-wanju">
+              등산•트레킹 클래스
+            </span>
           </p>
           <p className="text-desc">
             혼자 오르기 애매한 산,

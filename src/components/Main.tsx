@@ -6,21 +6,24 @@ const Main = () => {
       <Container>
         <img className="img" src="/assets/mockup.webp" alt="산책 앱 화면" />
         <TextContainer>
-          <p className="text-subtitle-black">
+          <p className="text-subtitle-black text-wanju">
             나만의
             <br />
             등산•트레킹 파트너
           </p>
           <p className="text-desc">
-            나만의 니즈에 맞는 등산•트레킹 코스 추천
+            <span className="text-primary">나만의 니즈</span>에 맞는 등산•트레킹
+            <span className="text-primary"> 코스 추천</span>
             <br />
             <br />
-            등산 전 짐 챙기기부터
+            등산 전 <span className="text-primary"> 짐 챙기기</span>부터
             <br />
-            등산 후 방문할 맛집 선정까지 한 번에
+            등산 후 방문할 <span className="text-primary"> 맛집 선정</span>까지
+            한 번에
             <br />
             <br />
-            2030 감성을 담은 심플하고 편리한 인터페이스
+            <span className="text-primary">2030 감성</span>을 담은{" "}
+            <span className="text-primary"> 심플하고 편리한</span> 인터페이스
           </p>
         </TextContainer>
       </Container>

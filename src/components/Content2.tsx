@@ -8,10 +8,12 @@ const Content2 = () => {
     <section>
       <Container>
         <TextContainer>
-          <p className="text-subtitle-black">
+          <p className="text-subtitle-black text-wanju">
             짐 챙기기 귀찮을 때
             <br />
-            <span className="text-subtitle-point">백패킹 체크리스트</span>
+            <span className="text-subtitle-point text-wanju">
+              백패킹 체크리스트
+            </span>
           </p>
           <p className="text-desc">
             뭘 챙겨야 할 지 애매할 때,

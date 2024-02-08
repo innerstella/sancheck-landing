@@ -7,11 +7,12 @@ const Content3 = () => {
     <section>
       <Container>
         <TextContainer>
-          <p className="text-subtitle-black">
+          <p className="text-subtitle-black text-wanju">
             등산•트레킹 자극 뿜뿜
-            <span className="text-subtitle-point">챌린지 </span>
+            <br />
+            <span className="text-subtitle-point text-wanju">챌린지 </span>
             참여
-            <span className="text-subtitle-point">& 리워드</span>
+            <span className="text-subtitle-point text-wanju">& 리워드</span>
           </p>
           <p className="text-desc">
             챌린지 참여하고 리워드 혜택 받기

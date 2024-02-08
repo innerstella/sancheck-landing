@@ -52,8 +52,9 @@ const Submit = () => {
     <section>
       <Container>
         <TextContainer>
-          <p className="text-subtitle-black">
-            <span className="text-subtitle-point">산-책 </span>과 함께
+          <p className="text-subtitle-black text-wanju">
+            <span className="text-subtitle-point text-wanju">산-책 </span>과
+            함께
             <br />
             등산•트레킹 가고 싶다면?
           </p>

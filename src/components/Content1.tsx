@@ -17,8 +17,10 @@ const Content1 = () => {
     <section>
       <Container>
         <TextContainer>
-          <p className="text-subtitle-black">
-            <span className="text-subtitle-point">나의 니즈에 딱 맞는</span>
+          <p className="text-subtitle-black text-wanju">
+            <span className="text-subtitle-point text-wanju">
+              나의 니즈에 딱 맞는
+            </span>
             <br />
             등산•트레킹 장소 추천
           </p>
