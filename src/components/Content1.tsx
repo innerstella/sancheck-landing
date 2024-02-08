@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Bubble from "../ui/Bubble";
 import KeywordButton from "../ui/Keyword";
 import keywordData from "../data/keyword.json";
+import Thumbs from "../ui/Thumbs";
 
 const Content1 = () => {
   // keyword data
@@ -17,16 +18,19 @@ const Content1 = () => {
       <Container>
         <TextContainer>
           <p className="text-subtitle-black">
-            <span className="text-subtitle-point">사용자 맞춤형</span>
+            <span className="text-subtitle-point">나의 니즈에 딱 맞는</span>
             <br />
-            등산/트레킹 장소 추천
+            등산•트레킹 장소 추천
           </p>
           <p className="text-desc">
-            나만의 니즈 맞춤형 등산/트레킹 정보 확인
+            나만의 키워드로 갈만한 곳 추천받기
             <br />
-            공간데이터&빅데이터 분석 기반의 신뢰할만한 데이터!
             <br />
-            최신 검색 수요를 반영한 키워드 업데이트!
+            신뢰도를 높여주는 공간데이터&AI 분석 기술
+            <br />
+            <br />
+            키워드 고르기 어렵다면?
+            <br />☞ 요즘 뜨는 추천 키워드로 검색하기
           </p>
         </TextContainer>
         <Bubble text="💬  어떤 여행을 하고 싶은가요?" />
@@ -35,6 +39,7 @@ const Content1 = () => {
             return <KeywordButton key={elem.id} elem={elem} animation={true} />;
           })}
         </KeywordContainer>
+        <Thumbs funcName="func1" />
       </Container>
     </section>
   );

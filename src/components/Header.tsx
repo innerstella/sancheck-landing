@@ -112,7 +112,11 @@ const Container = styled.div`
   align-items: center;
   padding: 1.25rem 0;
   background-color: white;
-  width: 100%;
+  width: 420px;
+
+  @media screen and (max-width: 420px) {
+    width: 100vw;
+  }
 
   position: fixed;
   top: 0;

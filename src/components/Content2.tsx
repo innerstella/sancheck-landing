@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Bubble from "../ui/Bubble";
 import { Container, TextContainer } from "./Content1";
+import Thumbs from "../ui/Thumbs";
 
 const Content2 = () => {
   return (
@@ -16,6 +17,7 @@ const Content2 = () => {
             뭘 챙겨야 할 지 애매할 때,
             <br />
             백패킹 체크리스트를 통해 필요한 물품 빠짐 없이 챙기기
+            <br />
             <br />
             커머스와 연동을 통해 부족한 물품은 바로 주문!
           </p>
@@ -42,6 +44,7 @@ const Content2 = () => {
             </div>
           </div>
         </CheckContainer>
+        <Thumbs funcName="func2" />
       </Container>
     </section>
   );

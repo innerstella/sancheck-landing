@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Container, TextContainer } from "./Content1";
+import Thumbs from "../ui/Thumbs";
 
 const Content5 = () => {
   return (
@@ -7,9 +8,9 @@ const Content5 = () => {
       <Container>
         <TextContainer>
           <p className="text-subtitle-black">
-            등산 리더와 함께 하는
+            등산 PT는 처음이지?
             <br />
-            <span className="text-subtitle-point">등산/트레킹 클래스</span>
+            <span className="text-subtitle-point">등산•트레킹 클래스</span>
           </p>
           <p className="text-desc">
             혼자 오르기 애매한 산,
@@ -26,6 +27,7 @@ const Content5 = () => {
           <img className="img2" src="/assets/class2.png" alt="class2" />
         </div>
       </ImageContainer>
+      <Thumbs funcName="func5" />
     </section>
   );
 };

@@ -12,6 +12,7 @@ import {
 import { useState } from "react";
 import { dbService } from "../firebase";
 import { doc, setDoc } from "firebase/firestore";
+import FeedBack from "./FeedBack";
 
 const Submit = () => {
   const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
@@ -45,21 +46,21 @@ const Submit = () => {
       email: email,
       date: new Date(),
     };
-    setDoc(doc(dbService, "test_2401", email), data);
+    setDoc(doc(dbService, "emailData", email), data);
   };
   return (
     <section>
       <Container>
         <TextContainer>
           <p className="text-subtitle-black">
-            산-책과 함께
+            <span className="text-subtitle-point">산-책 </span>과 함께
             <br />
-            등산/트레킹 가고 싶다면?
+            등산•트레킹 가고 싶다면?
           </p>
           <p className="text-desc">
-            2024년 상반기 출시 예정인 ‘산-책’
-            <br />
-            알림 받기 해두고 신규 사용자 혜택을 누리세요!
+            2024년 하반기 출시 예정인 ‘산-책’ <br />
+            알림 받기 해두고 신규 사용자 <br />
+            혜택을 누리세요!
           </p>
         </TextContainer>
         <Button onClick={onOpen}>
@@ -67,6 +68,7 @@ const Submit = () => {
           <p className="text">출시 알림 받기</p>
         </Button>
       </Container>
+      <FeedBack />
       <ImageContainer>
         <img className="img" src="/assets/mockup2.webp" alt="산책" />
       </ImageContainer>

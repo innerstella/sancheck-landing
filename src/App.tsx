@@ -17,7 +17,7 @@ function App() {
   return (
     <ChakraProvider>
       <Container>
-        <div>
+        <MobileContainer>
           <Header />
           <Main />
           <Scroll />
@@ -30,7 +30,7 @@ function App() {
             <Submit />
             <Footer />
           </ContentContainer>
-        </div>
+        </MobileContainer>
       </Container>
     </ChakraProvider>
   );
@@ -39,10 +39,22 @@ function App() {
 export default App;
 
 const Container = styled.div`
-  background-color: white;
+  background-color: #cacaca;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100vw;
+`;
+
+const MobileContainer = styled.div`
+  width: 420px;
+  min-height: 100vh;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  @media screen and (max-width: 420px) {
+    width: 100vw;
+  }
 `;
 
 const ContentContainer = styled.div`
