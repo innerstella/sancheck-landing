@@ -73,7 +73,7 @@ const Submit = () => {
       <ImageContainer>
         <img className="img" src="/assets/mockup2.webp" alt="산책" />
       </ImageContainer>
-      <Modal isOpen={isOpen} onClose={onClose} isCentered size="xs">
+      <Modal isOpen={isOpen} onClose={onClose} size="xs">
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>출시 알림 받기</ModalHeader>

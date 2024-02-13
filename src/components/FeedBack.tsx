@@ -62,7 +62,7 @@ const FeedBack = () => {
             <p className="text">피드백 남기기</p>
           </Button>
         </Container>
-        <Modal isOpen={isOpen} onClose={onClose} isCentered size="xs">
+        <Modal isOpen={isOpen} onClose={onClose} size="xs">
           <ModalOverlay />
           <ModalContent>
             <ModalHeader>피드백 남기기</ModalHeader>

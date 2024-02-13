@@ -70,7 +70,7 @@ const Header = () => {
           onClick={onOpen}
         />
 
-        <Modal isOpen={isOpen} onClose={onClose} isCentered size="xs">
+        <Modal isOpen={isOpen} onClose={onClose} size="xs">
           <ModalOverlay />
           <ModalContent>
             <ModalHeader>출시 알림 받기</ModalHeader>
