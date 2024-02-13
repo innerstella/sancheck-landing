@@ -57,7 +57,7 @@ const FeedBack = () => {
               소중한 의견 남겨주시면 서비스 개발에 큰 힘이 됩니다!
             </p>
           </TextContainer>
-          <Button onClick={onOpen}>
+          <Button onClick={onOpen} className="pointer">
             <img src="/assets/email.svg" alt="email" />
             <p className="text">피드백 남기기</p>
           </Button>

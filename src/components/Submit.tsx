@@ -64,7 +64,7 @@ const Submit = () => {
             혜택을 누리세요!
           </p>
         </TextContainer>
-        <Button onClick={onOpen}>
+        <Button onClick={onOpen} className="pointer">
           <img src="/assets/bell-alert.svg" alt="bell-alert" />
           <p className="text">출시 알림 받기</p>
         </Button>

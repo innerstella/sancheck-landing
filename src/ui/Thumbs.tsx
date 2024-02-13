@@ -85,12 +85,16 @@ const Thumbs = ({
       <div className="flex-row">
         <div className="flex-col" onClick={() => handleThumbs("up")}>
           <p>좋아요</p>
-          <img className="icon" src={`/assets/up-${up}.svg`} alt="좋아요" />
+          <img
+            className="icon pointer"
+            src={`/assets/up-${up}.svg`}
+            alt="좋아요"
+          />
         </div>
         <div className="flex-col" onClick={() => handleThumbs("down")}>
           <p>별로예요</p>
           <img
-            className="icon"
+            className="icon pointer"
             src={`/assets/down-${down}.svg`}
             alt="별로예요"
           />

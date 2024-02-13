@@ -64,7 +64,7 @@ const Header = () => {
             repeat: Infinity,
             repeatDelay: 1,
           }}
-          className="bell"
+          className="bell pointer"
           src="/assets/bell.svg"
           alt="출시 알림 신청하기"
           onClick={onOpen}

@@ -64,3 +64,7 @@
 .text-primary {
   color: var(--Primary);
 }
+
+.pointer {
+  cursor: pointer;
+}
