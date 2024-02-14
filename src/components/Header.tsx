@@ -46,7 +46,7 @@ const Header = () => {
       email: email,
       date: new Date(),
     };
-    setDoc(doc(dbService, "test_2401", email), data);
+    setDoc(doc(dbService, "emailData", email), data);
   };
   return (
     <header>
